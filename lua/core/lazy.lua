@@ -35,13 +35,6 @@ require("lazy").setup({
   { import = "plugins.active.alternate_toggler" },
 
 
-  ---------------------------------------------------------------------------
-  -- AI
-
-  { import = "plugins.active.ai.claude.claude_code" },
-  { import = "plugins.active.ai.copilot.copilot-chat" },
-  { import = "plugins.active.ai.copilot.copilot" },
-
 
   ---------------------------------------------------------------------------
   -- js-env
@@ -107,13 +100,11 @@ require("lazy").setup({
   { import = "plugins.active.harpoon" },
   { import = "plugins.active.indent-blankline" },
   { import = "plugins.active.lastplace" },
-  { import = "plugins.active.live-share" },
   -- { import = "plugins.active.local-highlight" },
   { import = "plugins.active.lualine" },
   { import = "plugins.active.maximizer" },
   { import = "plugins.active.nvim-cmp" },
   { import = "plugins.active.nvim-tree" },
-  { import = "plugins.active.obsidian" },
   { import = "plugins.active.peek" },
   { import = "plugins.active.surround" },
   { import = "plugins.active.todo-comments" },
